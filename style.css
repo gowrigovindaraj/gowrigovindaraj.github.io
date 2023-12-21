@@ -1,0 +1,303 @@
+.single-page-personal {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.single-page-personal .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 2008px;
+  position: relative;
+}
+
+.single-page-personal .banner {
+  position: absolute;
+  width: 868px;
+  height: 330px;
+  top: 212px;
+  left: 249px;
+}
+
+.single-page-personal .image {
+  position: absolute;
+  width: 295px;
+  height: 330px;
+  top: 0;
+  left: 573px;
+  background-image: url(./img/428e53cf-8f22-4f0a-a26f-30e6e3e01b2a-gowri-govindaraj-1.png);
+  background-size: 100% 100%;
+}
+
+.single-page-personal .text {
+  position: absolute;
+  width: 506px;
+  height: 178px;
+  top: 27px;
+  left: 0;
+}
+
+.single-page-personal .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #212529;
+  font-size: 96px;
+  letter-spacing: -4.8px;
+  line-height: normal;
+}
+
+.single-page-personal .text-wrapper-2 {
+  position: absolute;
+  top: 154px;
+  left: 0;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #6c757d;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-page-personal .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 1107px;
+  top: 596px;
+  left: 0;
+}
+
+.single-page-personal .services {
+  position: absolute;
+  width: 1440px;
+  height: 716px;
+  top: 391px;
+  left: 0;
+}
+
+.single-page-personal .group {
+  position: relative;
+  width: 1305px;
+  height: 605px;
+  top: 51px;
+  left: 87px;
+}
+
+.single-page-personal .text-2 {
+  position: absolute;
+  width: 438px;
+  height: 58px;
+  top: 0;
+  left: 415px;
+}
+
+.single-page-personal .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #212529;
+  font-size: 48px;
+  letter-spacing: -2.4px;
+  line-height: normal;
+}
+
+.single-page-personal .cards {
+  position: absolute;
+  width: 1305px;
+  height: 445px;
+  top: 160px;
+  left: 0;
+}
+
+.single-page-personal .catd {
+  position: absolute;
+  width: 430px;
+  height: 475px;
+  top: -5px;
+  left: -5px;
+}
+
+.single-page-personal .card {
+  position: absolute;
+  width: 430px;
+  height: 475px;
+  top: -5px;
+  left: 448px;
+}
+
+.single-page-personal .img {
+  position: absolute;
+  width: 430px;
+  height: 475px;
+  top: -5px;
+  left: 900px;
+}
+
+.single-page-personal .about {
+  position: absolute;
+  width: 1159px;
+  height: 408px;
+  top: 0;
+  left: 140px;
+}
+
+.single-page-personal .overlap-group {
+  position: relative;
+  width: 1161px;
+  height: 408px;
+}
+
+.single-page-personal .group-2 {
+  position: absolute;
+  width: 828px;
+  height: 190px;
+  top: 0;
+  left: 188px;
+}
+
+.single-page-personal .div-wrapper {
+  position: relative;
+  width: 830px;
+  height: 190px;
+}
+
+.single-page-personal .p {
+  position: absolute;
+  width: 828px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-page-personal .text-3 {
+  position: absolute;
+  width: 1161px;
+  height: 263px;
+  top: 145px;
+  left: 0;
+}
+
+.single-page-personal .text-wrapper-4 {
+  position: absolute;
+  width: 1159px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-page-personal .footer {
+  position: absolute;
+  width: 1442px;
+  height: 74px;
+  top: 1934px;
+  left: 0;
+  background-color: transparent;
+}
+
+.single-page-personal .overlap-2 {
+  position: relative;
+  width: 1440px;
+  height: 74px;
+  background-color: var(--main);
+}
+
+.single-page-personal .text-wrapper-5 {
+  position: absolute;
+  top: 25px;
+  left: 521px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #212529;
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-page-personal .navbar {
+  position: fixed;
+  width: 1440px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  background-color: #212529;
+}
+
+.single-page-personal .navbar-2 {
+  position: relative;
+  width: 388px;
+  height: 23px;
+  top: 23px;
+  left: 1020px;
+}
+
+.single-page-personal .text-wrapper-6 {
+  left: 0;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--main);
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-page-personal .text-wrapper-7 {
+  left: 98px;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-weight: 400;
+  color: #f8f9fa;
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-page-personal .text-wrapper-8 {
+  left: 195px;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-weight: 400;
+  color: #f8f9fa;
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-page-personal .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 311px;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-weight: 400;
+  color: #f8f9fa;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
