@@ -10,25 +10,25 @@
   background-color: #ffffff;
   overflow: hidden;
   width: 1440px;
-  height: 2008px;
+  height: 3258px;
   position: relative;
 }
 
 .single-page-personal .banner {
   position: absolute;
-  width: 868px;
-  height: 330px;
-  top: 212px;
+  width: 966px;
+  height: 440px;
+  top: 185px;
   left: 249px;
 }
 
 .single-page-personal .image {
   position: absolute;
-  width: 295px;
-  height: 330px;
+  width: 393px;
+  height: 440px;
   top: 0;
   left: 573px;
-  background-image: url(./img/428e53cf-8f22-4f0a-a26f-30e6e3e01b2a-gowri-govindaraj-1.png);
+  background-image: url(./img/mask-group.png);
   background-size: 100% 100%;
 }
 
@@ -36,7 +36,7 @@
   position: absolute;
   width: 506px;
   height: 178px;
-  top: 27px;
+  top: 54px;
   left: 0;
 }
 
@@ -68,8 +68,8 @@
 .single-page-personal .overlap {
   position: absolute;
   width: 1440px;
-  height: 1107px;
-  top: 596px;
+  height: 962px;
+  top: 741px;
   left: 0;
 }
 
@@ -77,7 +77,7 @@
   position: absolute;
   width: 1440px;
   height: 716px;
-  top: 391px;
+  top: 246px;
   left: 0;
 }
 
@@ -144,53 +144,18 @@
 .single-page-personal .about {
   position: absolute;
   width: 1159px;
-  height: 408px;
+  height: 263px;
   top: 0;
   left: 140px;
 }
 
-.single-page-personal .overlap-group {
-  position: relative;
-  width: 1161px;
-  height: 408px;
-}
-
-.single-page-personal .group-2 {
-  position: absolute;
-  width: 828px;
-  height: 190px;
-  top: 0;
-  left: 188px;
-}
-
 .single-page-personal .div-wrapper {
   position: relative;
-  width: 830px;
-  height: 190px;
+  width: 1161px;
+  height: 263px;
 }
 
 .single-page-personal .p {
-  position: absolute;
-  width: 828px;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.single-page-personal .text-3 {
-  position: absolute;
-  width: 1161px;
-  height: 263px;
-  top: 145px;
-  left: 0;
-}
-
-.single-page-personal .text-wrapper-4 {
   position: absolute;
   width: 1159px;
   top: 0;
@@ -204,23 +169,217 @@
   line-height: normal;
 }
 
+.single-page-personal .overlap-group {
+  position: absolute;
+  width: 1309px;
+  height: 1187px;
+  top: 1790px;
+  left: 77px;
+}
+
+.single-page-personal .about-me {
+  position: absolute;
+  width: 1309px;
+  height: 1187px;
+  top: 0;
+  left: 0;
+}
+
+.single-page-personal .group-2 {
+  position: absolute;
+  width: 828px;
+  height: 190px;
+  top: 0;
+  left: 481px;
+}
+
+.single-page-personal .text-3 {
+  position: relative;
+  width: 830px;
+  height: 190px;
+}
+
+.single-page-personal .text-wrapper-4 {
+  position: absolute;
+  width: 828px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-page-personal .text-4 {
+  position: absolute;
+  width: 413px;
+  height: 40px;
+  top: 560px;
+  left: 0;
+}
+
+.single-page-personal .div-2 {
+  position: absolute;
+  width: 411px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-page-personal .text-5 {
+  position: absolute;
+  width: 413px;
+  height: 40px;
+  top: 1147px;
+  left: 0;
+}
+
+.single-page-personal .wore-a-traditional-wrapper {
+  position: absolute;
+  width: 413px;
+  height: 40px;
+  top: 1147px;
+  left: 463px;
+}
+
+.single-page-personal .span {
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.single-page-personal .text-wrapper-5 {
+  font-family: "Helvetica Neue-Italic", Helvetica;
+  font-style: italic;
+}
+
+.single-page-personal .text-6 {
+  position: absolute;
+  width: 345px;
+  height: 40px;
+  top: 903px;
+  left: 895px;
+}
+
+.single-page-personal .text-wrapper-6 {
+  position: absolute;
+  width: 343px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-page-personal .text-7 {
+  position: absolute;
+  width: 413px;
+  height: 40px;
+  top: 560px;
+  left: 437px;
+}
+
+.single-page-personal .text-8 {
+  position: absolute;
+  width: 318px;
+  height: 40px;
+  top: 560px;
+  left: 952px;
+}
+
+.single-page-personal .text-wrapper-7 {
+  position: absolute;
+  width: 316px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-page-personal .element {
+  position: absolute;
+  width: 350px;
+  height: 481px;
+  top: 75px;
+  left: 12px;
+  object-fit: cover;
+}
+
+.single-page-personal .image-2 {
+  position: absolute;
+  width: 432px;
+  height: 241px;
+  top: 641px;
+  left: 879px;
+  object-fit: cover;
+}
+
+.single-page-personal .IMG {
+  position: absolute;
+  width: 350px;
+  height: 481px;
+  top: 662px;
+  left: 12px;
+}
+
+.single-page-personal .IMG-2 {
+  position: absolute;
+  width: 350px;
+  height: 481px;
+  top: 662px;
+  left: 478px;
+}
+
+.single-page-personal .IMG-3 {
+  position: absolute;
+  width: 350px;
+  height: 481px;
+  top: 75px;
+  left: 477px;
+  object-fit: cover;
+}
+
+.single-page-personal .element-2 {
+  position: absolute;
+  width: 350px;
+  height: 481px;
+  top: 75px;
+  left: 947px;
+}
+
 .single-page-personal .footer {
   position: absolute;
   width: 1442px;
   height: 74px;
-  top: 1934px;
+  top: 3184px;
   left: 0;
   background-color: transparent;
 }
 
-.single-page-personal .overlap-2 {
+.single-page-personal .overlap-group-2 {
   position: relative;
   width: 1440px;
   height: 74px;
   background-color: var(--main);
 }
 
-.single-page-personal .text-wrapper-5 {
+.single-page-personal .text-wrapper-8 {
   position: absolute;
   top: 25px;
   left: 521px;
@@ -250,7 +409,7 @@
   left: 1020px;
 }
 
-.single-page-personal .text-wrapper-6 {
+.single-page-personal .text-wrapper-9 {
   left: 0;
   font-family: "Helvetica-Bold", Helvetica;
   font-weight: 700;
@@ -263,7 +422,7 @@
   white-space: nowrap;
 }
 
-.single-page-personal .text-wrapper-7 {
+.single-page-personal .text-wrapper-10 {
   left: 98px;
   font-family: "Helvetica-Regular", Helvetica;
   font-weight: 400;
@@ -276,7 +435,7 @@
   white-space: nowrap;
 }
 
-.single-page-personal .text-wrapper-8 {
+.single-page-personal .text-wrapper-11 {
   left: 195px;
   font-family: "Helvetica-Regular", Helvetica;
   font-weight: 400;
@@ -289,7 +448,7 @@
   white-space: nowrap;
 }
 
-.single-page-personal .text-wrapper-9 {
+.single-page-personal .text-wrapper-12 {
   position: absolute;
   top: 0;
   left: 311px;

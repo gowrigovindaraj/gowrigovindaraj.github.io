@@ -30,6 +30,11 @@ a {
 }
 
 @font-face {
+  font-family: "Helvetica Neue-Italic";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5c9a7937261d000c741df3/HelveticaNeueIt.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Helvetica Neue-Light";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/61fd0f1b6b2468ecf928c177/fonts/helveticaneue-light.otf")
     format("opentype");
