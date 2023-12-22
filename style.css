@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+/* Adjustments for larger screens */
+@media only screen and (min-width: 768px) {
+  .single-page-personal {
+    flex-direction: row;
+  }
+}
+
 .single-page-personal .div {
   background-color: #ffffff;
   overflow: hidden;
