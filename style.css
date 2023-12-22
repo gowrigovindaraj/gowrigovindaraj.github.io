@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -14,6 +15,7 @@
 
   .single-page-personal .div {
     width: 100%;
+    max-width: 1440px; /* Adjust the maximum width as needed */
     height: auto;
   }
 
@@ -23,11 +25,11 @@
   .single-page-personal .text-2,
   .single-page-personal .text-wrapper,
   .single-page-personal .text-wrapper-2 {
-    position: static;
     width: 100%;
     height: auto;
-    left: 0;
+    position: static;
     top: 0;
+    left: 0;
   }
 
   .single-page-personal .div,
@@ -50,6 +52,7 @@
   background-color: #ffffff;
   overflow: hidden;
   width: 100%;
+  max-width: 1440px; /* Adjust the maximum width as needed */
   height: auto;
   position: relative;
 }
