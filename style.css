@@ -13,6 +13,23 @@
   }
 }
 
+/* Apply Flexbox to other containers as needed */
+.single-page-personal .div,
+.single-page-personal .overlap,
+.single-page-personal .services,
+.single-page-personal .group,
+.single-page-personal .cards,
+.single-page-personal .about,
+.single-page-personal .overlap-group,
+.single-page-personal .group-2,
+.single-page-personal .text-3 {
+  display: flex;
+  flex-direction: column; /* or row, depending on design */
+  justify-content: center;
+  align-items: center;
+  /* Add other Flexbox properties as needed */
+}
+
 .single-page-personal .div {
   background-color: #ffffff;
   overflow: hidden;
