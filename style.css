@@ -1,7 +1,7 @@
 .single-page-personal {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
 }
@@ -11,63 +11,78 @@
   .single-page-personal {
     flex-direction: row;
   }
-}
 
-/* Apply Flexbox to other containers as needed */
-.single-page-personal .div,
-.single-page-personal .overlap,
-.single-page-personal .services,
-.single-page-personal .group,
-.single-page-personal .cards,
-.single-page-personal .about,
-.single-page-personal .overlap-group,
-.single-page-personal .group-2,
-.single-page-personal .text-3 {
-  display: flex;
-  flex-direction: column; /* or row, depending on design */
-  justify-content: center;
-  align-items: center;
-  /* Add other Flexbox properties as needed */
+  .single-page-personal .div {
+    width: 100%;
+    height: auto;
+  }
+
+  .single-page-personal .banner,
+  .single-page-personal .image,
+  .single-page-personal .text,
+  .single-page-personal .text-2,
+  .single-page-personal .text-wrapper,
+  .single-page-personal .text-wrapper-2 {
+    position: static;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+  }
+
+  .single-page-personal .div,
+  .single-page-personal .overlap,
+  .single-page-personal .services,
+  .single-page-personal .group,
+  .single-page-personal .cards,
+  .single-page-personal .about,
+  .single-page-personal .overlap-group,
+  .single-page-personal .group-2,
+  .single-page-personal .text-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .single-page-personal .div {
   background-color: #ffffff;
   overflow: hidden;
-  width: 1440px;
-  height: 3258px;
+  width: 100%;
+  height: auto;
   position: relative;
 }
 
-.single-page-personal .banner {
-  position: absolute;
-  width: 966px;
-  height: 440px;
-  top: 185px;
-  left: 249px;
-}
-
-.single-page-personal .image {
-  position: absolute;
-  width: 393px;
-  height: 440px;
-  top: 0;
-  left: 573px;
-  background-image: url(./img/mask-group.png);
-  background-size: 100% 100%;
-}
-
+.single-page-personal .banner,
+.single-page-personal .image,
 .single-page-personal .text {
-  position: absolute;
-  width: 506px;
-  height: 178px;
-  top: 54px;
+  width: 100%;
+  height: auto;
+  position: static;
+  top: 0;
   left: 0;
 }
 
-.single-page-personal .text-wrapper {
-  position: absolute;
+.single-page-personal .text-wrapper,
+.single-page-personal .text-wrapper-2,
+.single-page-personal .text-2,
+.single-page-personal .text-wrapper-3,
+.single-page-personal .text-wrapper-4,
+.single-page-personal .text-4,
+.single-page-personal .text-5,
+.single-page-personal .text-6,
+.single-page-personal .text-wrapper-6,
+.single-page-personal .text-7,
+.single-page-personal .text-8,
+.single-page-personal .text-wrapper-7 {
+  position: static;
   top: 0;
   left: 0;
+}
+
+.single-page-personal .text-wrapper,
+.single-page-personal .text-wrapper-2 {
   font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #212529;
@@ -77,408 +92,10 @@
 }
 
 .single-page-personal .text-wrapper-2 {
-  position: absolute;
   top: 154px;
-  left: 0;
   font-family: "Helvetica Neue-Bold", Helvetica;
   font-weight: 700;
   color: #6c757d;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.single-page-personal .overlap {
-  position: absolute;
-  width: 1440px;
-  height: 962px;
-  top: 741px;
-  left: 0;
-}
-
-.single-page-personal .services {
-  position: absolute;
-  width: 1440px;
-  height: 716px;
-  top: 246px;
-  left: 0;
-}
-
-.single-page-personal .group {
-  position: relative;
-  width: 1305px;
-  height: 605px;
-  top: 51px;
-  left: 87px;
-}
-
-.single-page-personal .text-2 {
-  position: absolute;
-  width: 438px;
-  height: 58px;
-  top: 0;
-  left: 415px;
-}
-
-.single-page-personal .text-wrapper-3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #212529;
-  font-size: 48px;
-  letter-spacing: -2.4px;
-  line-height: normal;
-}
-
-.single-page-personal .cards {
-  position: absolute;
-  width: 1305px;
-  height: 445px;
-  top: 160px;
-  left: 0;
-}
-
-.single-page-personal .catd {
-  position: absolute;
-  width: 430px;
-  height: 475px;
-  top: -5px;
-  left: -5px;
-}
-
-.single-page-personal .card {
-  position: absolute;
-  width: 430px;
-  height: 475px;
-  top: -5px;
-  left: 448px;
-}
-
-.single-page-personal .img {
-  position: absolute;
-  width: 430px;
-  height: 475px;
-  top: -5px;
-  left: 900px;
-}
-
-.single-page-personal .about {
-  position: absolute;
-  width: 1159px;
-  height: 263px;
-  top: 0;
-  left: 140px;
-}
-
-.single-page-personal .div-wrapper {
-  position: relative;
-  width: 1161px;
-  height: 263px;
-}
-
-.single-page-personal .p {
-  position: absolute;
-  width: 1159px;
-  top: 0;
-  left: 0;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.single-page-personal .overlap-group {
-  position: absolute;
-  width: 1309px;
-  height: 1187px;
-  top: 1790px;
-  left: 77px;
-}
-
-.single-page-personal .about-me {
-  position: absolute;
-  width: 1309px;
-  height: 1187px;
-  top: 0;
-  left: 0;
-}
-
-.single-page-personal .group-2 {
-  position: absolute;
-  width: 828px;
-  height: 190px;
-  top: 0;
-  left: 481px;
-}
-
-.single-page-personal .text-3 {
-  position: relative;
-  width: 830px;
-  height: 190px;
-}
-
-.single-page-personal .text-wrapper-4 {
-  position: absolute;
-  width: 828px;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.single-page-personal .text-4 {
-  position: absolute;
-  width: 413px;
-  height: 40px;
-  top: 560px;
-  left: 0;
-}
-
-.single-page-personal .div-2 {
-  position: absolute;
-  width: 411px;
-  top: 0;
-  left: 0;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.single-page-personal .text-5 {
-  position: absolute;
-  width: 413px;
-  height: 40px;
-  top: 1147px;
-  left: 0;
-}
-
-.single-page-personal .wore-a-traditional-wrapper {
-  position: absolute;
-  width: 413px;
-  height: 40px;
-  top: 1147px;
-  left: 463px;
-}
-
-.single-page-personal .span {
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-}
-
-.single-page-personal .text-wrapper-5 {
-  font-family: "Helvetica Neue-Italic", Helvetica;
-  font-style: italic;
-}
-
-.single-page-personal .text-6 {
-  position: absolute;
-  width: 345px;
-  height: 40px;
-  top: 903px;
-  left: 895px;
-}
-
-.single-page-personal .text-wrapper-6 {
-  position: absolute;
-  width: 343px;
-  top: 0;
-  left: 0;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.single-page-personal .text-7 {
-  position: absolute;
-  width: 413px;
-  height: 40px;
-  top: 560px;
-  left: 437px;
-}
-
-.single-page-personal .text-8 {
-  position: absolute;
-  width: 318px;
-  height: 40px;
-  top: 560px;
-  left: 952px;
-}
-
-.single-page-personal .text-wrapper-7 {
-  position: absolute;
-  width: 316px;
-  top: 0;
-  left: 0;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.single-page-personal .element {
-  position: absolute;
-  width: 350px;
-  height: 481px;
-  top: 75px;
-  left: 12px;
-  object-fit: cover;
-}
-
-.single-page-personal .image-2 {
-  position: absolute;
-  width: 432px;
-  height: 241px;
-  top: 641px;
-  left: 879px;
-  object-fit: cover;
-}
-
-.single-page-personal .IMG {
-  position: absolute;
-  width: 350px;
-  height: 481px;
-  top: 662px;
-  left: 12px;
-}
-
-.single-page-personal .IMG-2 {
-  position: absolute;
-  width: 350px;
-  height: 481px;
-  top: 662px;
-  left: 478px;
-}
-
-.single-page-personal .IMG-3 {
-  position: absolute;
-  width: 350px;
-  height: 481px;
-  top: 75px;
-  left: 477px;
-  object-fit: cover;
-}
-
-.single-page-personal .element-2 {
-  position: absolute;
-  width: 350px;
-  height: 481px;
-  top: 75px;
-  left: 947px;
-}
-
-.single-page-personal .footer {
-  position: absolute;
-  width: 1442px;
-  height: 74px;
-  top: 3184px;
-  left: 0;
-  background-color: transparent;
-}
-
-.single-page-personal .overlap-group-2 {
-  position: relative;
-  width: 1440px;
-  height: 74px;
-  background-color: var(--main);
-}
-
-.single-page-personal .text-wrapper-8 {
-  position: absolute;
-  top: 25px;
-  left: 521px;
-  font-family: "Helvetica Neue-Light", Helvetica;
-  font-weight: 300;
-  color: #212529;
-  font-size: 20px;
-  letter-spacing: -1px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.single-page-personal .navbar {
-  position: fixed;
-  width: 1440px;
-  height: 70px;
-  top: 0;
-  left: 0;
-  background-color: #212529;
-}
-
-.single-page-personal .navbar-2 {
-  position: relative;
-  width: 388px;
-  height: 23px;
-  top: 23px;
-  left: 1020px;
-}
-
-.single-page-personal .text-wrapper-9 {
-  left: 0;
-  font-family: "Helvetica-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--main);
-  position: absolute;
-  top: 0;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.single-page-personal .text-wrapper-10 {
-  left: 98px;
-  font-family: "Helvetica-Regular", Helvetica;
-  font-weight: 400;
-  color: #f8f9fa;
-  position: absolute;
-  top: 0;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.single-page-personal .text-wrapper-11 {
-  left: 195px;
-  font-family: "Helvetica-Regular", Helvetica;
-  font-weight: 400;
-  color: #f8f9fa;
-  position: absolute;
-  top: 0;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.single-page-personal .text-wrapper-12 {
-  position: absolute;
-  top: 0;
-  left: 311px;
-  font-family: "Helvetica-Regular", Helvetica;
-  font-weight: 400;
-  color: #f8f9fa;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
